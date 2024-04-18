@@ -1,0 +1,20 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: go-component-aqculv
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: go-component-aqculv
+    app.kubernetes.io/part-of: build-suite-positive-mc-szcz
+  name: go-component-aqculvcouz
+spec:
+  path: /
+  port:
+    targetPort: 8081
+  to:
+    kind: Service
+    name: go-component-aqculv
+    weight: null
+status: {}
