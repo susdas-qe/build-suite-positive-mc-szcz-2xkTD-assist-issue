@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: go-component-aqculv
     spec:
       containers:
-      - image: quay.io/redhat-appstudio-qe/build-e2e-myae-tenant/build-suite-positive-mc-szcz/go-component-aqculv@sha256:55e0c5379c3525fe55600667518f596ae402066d168bd332fe0513bad3e7bb97
+      - image: quay.io/redhat-appstudio-qe/build-e2e-myae-tenant/build-suite-positive-mc-szcz/go-component-aqculv@sha256:b71e2d6f4f3087d62fe2b768980c46ca2e5600693cf6920e5954a9c70b7048ca
         name: my-go
         ports:
         - containerPort: 8081
